@@ -1,8 +1,6 @@
 # Optimizing Image Segmentation in Metallic Objects Using Illumination-Invariant Transforms
-For objects of a metallic nature, the illumination will generate specular reflections
-and shadows, which must be minimized.
-This work proposes to apply illumination invariant transforms before image segmentation.
-As a case study, a set of input images with metallic parts is provided.
+In the case of metallic objects, the illumination will generate specular reflections and shadows, 
+which must be minimized. This work proposes to apply illumination invariant transforms before image segmentation. As a case study, a set of input images with metallic parts is provided.
 
 ![In a nutshell](./appcode/code/livescripts/img/img_method_en.png)
 
@@ -11,8 +9,7 @@ As a case study, a set of input images with metallic parts is provided.
 ## InvIPM App description
 
 InvIPM is MATLAB desktop application.
-It has been developed that allows loading an image, applying a set of illumination-invariant transforms applying clustering-based segmentation methods,
- and quantifying the segmentation quality (if there is an image groundtruth).
+It allows to upload an image, to apply a set of illumination-invariant transforms, a series of clustering-based segmentation methods, and to assess the segmentation quality (if there is an image groundtruth).
  
 ![In a nutshell](./appcode/code/livescripts/img/img_appmatlabexplore.png)
 Algorithm exploration view of the MATLAB application developed to compare the two processing proposals.
