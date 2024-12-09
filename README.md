@@ -1,4 +1,4 @@
-# Optimizing Image Segmentation in Metallic Objects Using Illumination-Invariant Transforms
+# Segmentation Optimization of Images of Metallic Objects Using Illumination-Invariant Transforms
 In the case of metallic objects, the illumination will generate specular reflections and shadows, 
 which must be minimized. This work proposes to apply illumination invariant transforms before image segmentation. As a case study, a set of input images with metallic parts is provided.
 
